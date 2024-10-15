@@ -1,0 +1,66 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  border: none;
+  padding: 20px 60px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputTitle {
+  font-size: 12px;
+}
+
+.inputForm input {
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.inputForm select {
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.success {
+  color: green;
+  font-size: 12px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
